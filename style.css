@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+#prompt{
+    display: none;
+}
+#aftername{
+    display: none;
+}
+#aftername2{
+    display: none;
+}
+#aftername3{
+    display: none;
+}
+#aftername4{
+    display: none;
+}
+#aftername5{
+    display: none;
+}
+#aftername6{
+    display: none;
+}
+#aftername7{
+    display: none;
+}
+#aftername8{
+    display: none;
+}
+#options{
+    display: none;
+}
+#feedback{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #d3e5fa;
+}
+#options{
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #0d266f;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#feedback{
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #0d266f;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#feedback a{
+    color: #0d266f;
+    text-decoration: underline;
+}
+#header{
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s steps(65, end), blink-caret 0.75s step-end infinite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #0d266f;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+.chat{
+    font-size: 17px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    color: #0d266f;
+}
+#demo{
+    font-size: 17px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #0d266f;
+}
+#prompt label{
+    font-size: 17px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: 20px;
+    color: #0d266f;
+}
+#prompt input{
+    font-size: 17px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: #0d266f;
+}
+#prompt button{
+    font-size: 17px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 70px;
+    height: 25px;
+    color: #0d266f;
+}
+#prompt p{
+    font-size: 17px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #0d266f;
+}
+#aftername,
+#aftername2,
+#aftername3,
+#aftername4,
+#aftername5,
+#aftername6,
+#aftername7,
+#aftername8{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 17px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: 20px;
+    height: 30px;
+    width: 220px;
+    margin-top: 20px;
+    color: #0d266f;
+}
+#message{
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: #0d266f;
+    margin-bottom: 30px;
+}
+#about{
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #0d266f;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#about a{
+    text-decoration: underline;
+    color: #0d266f;
+}
